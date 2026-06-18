@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nicole Ruch | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- defer loads the JavaScript file after the HTML has been parsed -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="nav">
+
+            <a href="#hero" class="logo">
+                Nicole Ruch
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section id="hero" class="hero section">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        Portfolio / Web Development
+                    </p>
+
+                    <h1>
+                        Hi, I’m Nicole.
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Junior Web Developer focused on clean,
+                        structured and user-friendly digital solutions.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#projects" class="button primary-button">
+                            View Projects
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="code-card" aria-label="Code snippet about Nicole">
+
+                    <div class="code-card-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+<pre><code>const nicole = {
+    role: "Junior Developer",
+    focus: "Web Development",
+    tools: ["JavaScript", "PHP", "MySQL"],
+    currently: "Open to opportunities"
+};</code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+
+        <section id="about" class="section reveal">
+
+            <h2>About</h2>
+
+            <div class="about-card">
+
+                <p>
+                    I recently completed my vocational training in software
+                    development in Germany. I enjoy building modern web
+                    interfaces, solving technical problems and turning
+                    structured ideas into functional digital solutions.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+
+        <section id="skills" class="section reveal">
+
+            <h2>Skills</h2>
+
+            <div class="skill-groups">
+
+                <div>
+                    <h3>Frontend</h3>
+
+                    <p>
+                        HTML, CSS, JavaScript, responsive design
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Backend & Data</h3>
+
+                    <p>
+                        PHP, MySQL, APIs, JSON
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Tools</h3>
+
+                    <p>
+                        GitHub, VS Code, WordPress, Elementor
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section id="projects" class="section reveal">
+
+            <h2>Projects</h2>
+
+            <article class="project-card">
+
+                <p class="project-label">
+                    Final Training Project
+                </p>
+
+                <h3>
+                    FAQ Chatbot Platform
+                </h3>
+
+                <p>
+                    A web-based information platform with an integrated FAQ
+                    chatbot, built with WordPress, JavaScript, PHP and MySQL.
+                </p>
+
+                <div class="project-details">
+
+                    <div>
+                        <h4>Goal</h4>
+
+                        <p>
+                            Provide structured information for international
+                            applicants and reduce repetitive manual support.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>My Role</h4>
+
+                        <p>
+                            Planning, implementation, testing and presentation
+                            of the chatbot logic and platform integration.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Result</h4>
+
+                        <p>
+                            A user-friendly FAQ solution with
+                            database-supported search logic and intelligent
+                            answer handling.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="tags">
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>WordPress</span>
+                    <span>JSON</span>
+                </div>
+
+            </article>
+
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section id="experience" class="section reveal">
+
+            <h2>Experience</h2>
+
+            <div class="timeline">
+
+                <div>
+                    <span>2026</span>
+
+                    <p>
+                        Completed vocational training in software
+                        development in Germany.
+                    </p>
+                </div>
+
+                <div>
+                    <span>2025–2026</span>
+
+                    <p>
+                        Developed a web platform with an integrated FAQ chatbot
+                        and database-supported search logic as a final project.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="section reveal">
+
+            <h2>Contact</h2>
+
+            <p>
+                I’m currently looking for junior developer opportunities.
+            </p>
+
+            <div class="contact-actions">
+
+                <a
+                    href="mailto:hello@nicoleruch.dev"
+                    class="button primary-button"
+                >
+                    hello@nicoleruch.dev
+                </a>
+
+                <button
+                    class="button secondary-button"
+                    id="copyEmailButton"
+                    type="button"
+                >
+                    Copy email
+                </button>
+
+            </div>
+
+            <p
+                class="copy-message"
+                id="copyMessage"
+                aria-live="polite"
+            ></p>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Nicole Ruch</p>
+    </footer>
+
+</body>
+</html>
